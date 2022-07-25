@@ -5,4 +5,4 @@ CREATE TABLE `clients` (
     `name` varchar(30) NOT NULL,
     `email` varchar(255) DEFAULT NULL,
     PRIMARY KEY (`id`)
-)
+);

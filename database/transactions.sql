@@ -9,4 +9,4 @@ CREATE TABLE `transactions` (
     PRIMARY KEY (`id`),
     UNIQUE KEY `client_transactions` (`client_id`,`transaction_id`),
     CONSTRAINT `transactions_ibfk_1` FOREIGN KEY (`client_id`) REFERENCES `clients` (`id`) ON DELETE CASCADE
-)
+);
